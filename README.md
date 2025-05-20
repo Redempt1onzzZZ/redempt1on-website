@@ -1,6 +1,6 @@
 # My Personal Website
 
-Welcome to my [personal website](https://zanelee.site)This is my personal website repository. The site showcases my research work, publications, honors, and contact information. 
+Welcome to my [personal website](https://zanelee.site). This is my personal website repository. The site showcases my research work, publications, honors, and contact information. 
 
 ## Credits
 
