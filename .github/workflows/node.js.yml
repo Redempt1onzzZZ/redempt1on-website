@@ -33,7 +33,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x, 18.x, 20.x]
-        os: [ubuntu-22.04, windows-latest, macos-latest]
+        os: [ubuntu-24.04, windows-latest, macos-latest]
         exclude:
           - os: windows-latest
             node-version: 16.x
@@ -59,6 +59,7 @@ jobs:
             local max=5
             local delay=1
             while true; do
+              export PUPPETEER_EXECUTABLE_PATH=$(which google-chrome)
               "$@" && break || {
                 if [[ $n -lt $max ]]; then
                   ((n++))
@@ -74,6 +75,9 @@ jobs:
           retry npm run predeploy
         env:
           NODE_ENV: development
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
+          PUPPETEER_ARGS: --no-sandbox --disable-setuid-sandbox
       - name: Test
         run: npm test
         env:
