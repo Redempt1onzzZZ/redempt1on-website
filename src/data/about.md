@@ -21,8 +21,8 @@ My research interests include AI systems security and software engineering, etc.
 
 # Publications
 
-- <span style="color: #1E5387; font-weight: bold;">[ICSE'25] </span> <span style="font-weight: bold;">The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep Learning Libraries</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Paper]](https://arxiv.org/abs/2412.01317) [[Artifact]](https://github.com/Redempt1onzzZZ/FUTURE)<br>
+- <span style="color: #1E5387; font-weight: bold;">[ICSE'25] </span> <span style="font-weight: bold;">The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;">Deep Learning Libraries</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Paper]](https://arxiv.org/abs/2412.01317) [[Artifact]](https://github.com/Redempt1onzzZZ/FUTURE)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;">Zhiyuan Li</span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui, Yanjun Wu<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 47th ACM SIGSOFT International Conference on Software Engineering, Ottawa, Canada</span><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🏆 <span style="color: #990000; font-weight: bold;">ACM SIGSOFT Distinguished Paper Award</span><br>
