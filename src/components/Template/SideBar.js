@@ -12,9 +12,9 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Zhiyuan Li</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:lizhiyuan2021@iscas.ac.cn">lizhiyuan2021@iscas.ac.cn</a>
         </p>
       </header>
     </section>
@@ -22,13 +22,16 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        Hi, I&apos;m Zhiyuan Li. I am currently a PhD candidate at Institute of Software,
+        Chinese Academy of Science{' '}
+        <a href="http://www.iscas.ac.cn/">(ISCAS)</a>, working with Prof.{' '}
+        <a href="https://people.ucas.ac.cn/~jingzheng">Jingzheng Wu</a> and Associate Prof.{' '}
+        <a href="https://ryderling.github.io/">Xiang Ling</a>.
+        I am interested in <span className="highlight-dark">AI system security</span>. Besides,
+        I am also exploring
+        <span className="highlight-dark">
+          how to use insights from software to improve the robustness of hardware.
+        </span>
       </p>
       <ul className="actions">
         <li>
@@ -48,7 +51,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
+        &copy; Zhiyuan Li <Link to="/">zanelee.site</Link>.
       </p>
     </section>
   </section>

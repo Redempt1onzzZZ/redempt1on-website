@@ -1,0 +1,25 @@
+///
+/// Highlight text styles
+///
+
+.highlight {
+  background-color: #f0f0f0;  // Grey background
+  padding: 1px 4px;          // Reduce vertical padding for better text fit
+  border-radius: 3px;        // Rounded corners
+  display: inline;           // Make it inline to flow better with text
+  line-height: 1.4;          // Control line height
+  box-decoration-break: clone; // Maintain style across line breaks
+  -webkit-box-decoration-break: clone;
+  font-weight: 500;          // Slightly bold text
+}
+
+// Different grey intensity options
+.highlight-light {
+  @extend .highlight;
+  background-color: #f5f5f5;
+}
+
+.highlight-dark {
+  @extend .highlight;
+  background-color: #e0e0e0;
+} 

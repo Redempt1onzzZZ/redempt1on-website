@@ -3,10 +3,134 @@
 .markdown {
   p {
     margin: auto;
+    margin-bottom: 1.5em;
+  }
+
+  p + p {
+    margin-top: 0.5em;
   }
 
   h1 {
     font-size: 0.8em;
     margin-top: 3em;
   }
+  
+  // Add styles to fix spacing issues between list items
+  ul {
+    margin-bottom: 1em;
+    
+    li {
+      margin-bottom: 0.3em;
+    }
+    
+    // Reduce spacing between nested lists and parent list items
+    ul {
+      margin-top: 0.1em;
+      margin-bottom: 0.5em;
+      list-style-type: circle;
+      
+      li {
+        margin-bottom: 0.2em;
+      }
+    }
+  }
+  
+  // Special settings for Research Interests section
+  #research-interests + ul {
+    > li {
+      margin-bottom: 0.2em; 
+      
+      // Ensure child lists stay close to parent list items
+      + ul {
+        margin-top: 0;
+        margin-bottom: 0.6em;
+        list-style-type: circle;
+      }
+    }
+  }
+  
+  // News section styles - date on left, content on right
+  #news {
+    margin-left: 0;
+    padding-left: 0;
+    
+    & ~ p:not(#publications ~ p) {
+      position: relative;
+      padding-left: 140px;
+      margin-bottom: 1.2em;
+      min-height: 1.5em;
+      
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 125px;
+        top: 0;
+        bottom: 0;
+        width: 1px;
+        background-color: #ddd;
+      }
+      
+      em {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-weight: bold;
+        width: 115px;
+        text-align: left;
+        color: #777;
+      }
+    }
+  }
+  
+  // Match Publications section styles with Research Interests
+  #publications {
+    & + ul {
+      padding-left: 0; // Remove default padding to match Research Interests
+      margin-left: 0;
+      list-style-position: inside; // Keep bullets consistent
+      
+      > li {
+        padding-left: 0;
+        margin-bottom: 1em;
+        position: static;
+        
+        &:before {
+          display: none;
+        }
+        
+        // 使论文标题的粗体颜色更深
+        span[style*="font-weight: bold"] {
+          color: #444;
+        }
+        
+        // 为作者名称添加更深的颜色，特别是粗体部分
+        span[style*="font-weight: bold"]:not([style*="color:"]) {
+          color: #444;
+        }
+      }
+    }
+  }
+  
+  // Ensure all headings are aligned consistently
+  h1, h2, h3, h4, h5, h6 {
+    padding-left: 0;
+  }
+}
+
+// Remove any class-based styles that might affect Publications
+.conf-name {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  width: auto !important;
+  text-align: inherit !important;
+  display: inline !important;
+}
+
+.paper-authors {
+  position: static !important;
+  padding-left: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.5em !important;
 }

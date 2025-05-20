@@ -1,24 +1,24 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Zane Lee',
     path: '/',
   },
   {
     label: 'About',
     path: '/about',
   },
+  // {
+  //   label: 'Resume',
+  //   path: '/resume',
+  // },
   {
-    label: 'Resume',
-    path: '/resume',
+    label: 'Publications',
+    path: '/publications',
   },
   {
-    label: 'Projects',
-    path: '/projects',
-  },
-  {
-    label: 'Stats',
-    path: '/stats',
+    label: 'Honors and Awards',
+    path: '/honors',
   },
   {
     label: 'Contact',

@@ -27,7 +27,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Checkout
@@ -35,7 +35,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version-file: ".nvmrc"
+          node-version: '16'
           cache: "npm"
       - name: Install
         run: npm ci
@@ -64,8 +64,8 @@ jobs:
           retry npm run predeploy
         env:
           NODE_ENV: production
-          # Remove this line if you would like to skip using google analytics
-          REACT_APP_GA_TRACKING_ID: UA-68649021-1
+          # Remove Google Analytics tracking
+          REACT_APP_GA_TRACKING_ID: ''
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
