@@ -61,51 +61,36 @@ describe('renders the app', () => {
     expect(textMock).toHaveBeenCalledTimes(1);
   });
 
-  it('can navigate to /resume', async () => {
+  it('can navigate to /publications', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector(
+    const publicationsLink = document.querySelector(
       '#header > nav > ul > li:nth-child(2) > a',
     );
-    expect(contactLink).toBeInTheDocument();
+    expect(publicationsLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await publicationsLink.click();
     });
-    expect(document.title).toContain('Resume |');
-    expect(window.location.pathname).toBe('/resume');
+    expect(document.title).toContain('Publications |');
+    expect(window.location.pathname).toBe('/publications');
   });
 
   it('can navigate to /honors', async () => {
     expect.assertions(3);
-    const contactLink = document.querySelector(
+    const honorsLink = document.querySelector(
       '#header > nav > ul > li:nth-child(3) > a',
     );
-    expect(contactLink).toBeInTheDocument();
+    expect(honorsLink).toBeInTheDocument();
     await act(async () => {
-      await contactLink.click();
+      await honorsLink.click();
     });
-    expect(document.title).toContain('Honors |');
+    expect(document.title).toContain('Honors & Awards |');
     expect(window.location.pathname).toBe('/honors');
-  });
-
-  it('can navigate to /stats', async () => {
-    expect.assertions(5);
-    const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(4) > a',
-    );
-    expect(contactLink).toBeInTheDocument();
-    await act(async () => {
-      await contactLink.click();
-    });
-    expect(document.title).toContain('Stats |');
-    expect(window.location.pathname).toBe('/stats');
-    expect(global.fetch).toHaveBeenCalledTimes(1);
-    expect(jsonMock).toHaveBeenCalledTimes(1);
   });
 
   it('can navigate to /contact', async () => {
     expect.assertions(3);
     const contactLink = document.querySelector(
-      '#header > nav > ul > li:nth-child(5) > a',
+      '#header > nav > ul > li:nth-child(4) > a',
     );
     expect(contactLink).toBeInTheDocument();
     await act(async () => {
