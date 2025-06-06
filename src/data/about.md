@@ -11,6 +11,10 @@ My research interests include AI systems security and software engineering, etc.
     - Fuzzing for everything (software and hardware), Fuzzing with LLMs
 
 # News
+*June 06, 2025*🎉 Our research paper "OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models" was accepted by ICSME 2025. Congrats to Yuhao.
+
+*June 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing.
+
 *Apr 01, 2025*🏅 We (Hass Lab) won the 1st place at [HACK@DATE 2025](https://hackthesilicon.com/date25/).
 
 *Mar 18, 2025*🏅 [FUTURE](https://github.com/Redempt1onzzZZ/FUTURE) won the [ACM SIGSOFT Distinguished Paper Award](https://www.sigsoft.org/awards/distinguishedPaperAward.html) at ICSE 2025.
@@ -20,6 +24,13 @@ My research interests include AI systems security and software engineering, etc.
 *Oct 31, 2024*🎉 Our research paper "The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep Learning Libraries" was accepted by ICSE 2025.
 
 # Publications
+- <span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span> <span style="font-weight: bold;">OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models</span><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yuhao Peng, Jingzheng Wu, Xiang Ling, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Yanjun Wu<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br>
+
+- <span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span> <span style="font-weight: bold;">RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation</span><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xing Cui, Jingzheng Wu, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Xiang Ling<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br>
 
 - <span style="color: #1E5387; font-weight: bold;">[ICSE'25] </span> <span style="font-weight: bold;">The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;">Deep Learning Libraries</span><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Paper]](https://arxiv.org/abs/2412.01317) [[Artifact]](https://github.com/Redempt1onzzZZ/FUTURE)<br>
