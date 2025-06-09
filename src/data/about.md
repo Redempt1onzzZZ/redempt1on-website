@@ -11,9 +11,9 @@ My research interests include AI systems security and software engineering, etc.
     - Fuzzing for everything (software and hardware), Fuzzing with LLMs
 
 # News
-*June 06, 2025*🎉 Our research paper "OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models" was accepted by ICSME 2025. Congrats to Yuhao.
+*Jun 06, 2025*🎉 Our research paper "OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models" was accepted by ICSME 2025. Congrats to Yuhao.
 
-*June 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing.
+*Jun 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing.
 
 *Apr 01, 2025*🏅 We (Hass Lab) won the 1st place at [HACK@DATE 2025](https://hackthesilicon.com/date25/).
 
