@@ -15,6 +15,8 @@ My research interests include AI systems security and software engineering, etc.
 
 *Jun 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing.
 
+*May 15, 2025*🏅 We (Hass Lab) entered Phase 2 as the top performer of Phase 1 at [HACK@DAC 2025](https://hackthesilicon.com/dac25/). (Due to issues such as US visas, we were unable to arrive on site to participate in Phase 2.)
+
 *Apr 01, 2025*🏅 We (Hass Lab) won the 1st place at [HACK@DATE 2025](https://hackthesilicon.com/date25/).
 
 *Mar 18, 2025*🏅 [FUTURE](https://github.com/Redempt1onzzZZ/FUTURE) won the [ACM SIGSOFT Distinguished Paper Award](https://www.sigsoft.org/awards/distinguishedPaperAward.html) at ICSE 2025.

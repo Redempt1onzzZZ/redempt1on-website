@@ -1,4 +1,7 @@
 # Honors and Awards
+- <span style="color: #1E5387; font-weight: bold;">[Apr 2025] </span> <span style="font-weight: bold;">🏅Phase 1 top performer at HACK@DAC 2025</span><br>
+  As a member of Hass Lab team, entered Phase 2 as the top performer of Phase 1 at [HACK@DAC 2025](https://hackthesilicon.com/dac25/)(Unable to 
+participate in Phase 2 due to US visas and safety issues).
 
 - <span style="color: #1E5387; font-weight: bold;">[Apr 2025] </span> <span style="font-weight: bold;">🏅1st Place at HACK@DATE 2025</span><br>
   As a member of Hass Lab team, won the first place at [HACK@DATE 2025](https://hackthesilicon.com/date25/) competition.
