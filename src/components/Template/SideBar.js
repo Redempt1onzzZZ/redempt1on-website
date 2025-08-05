@@ -35,15 +35,9 @@ const SideBar = () => (
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/about') ? (
-            <Link to="/about" className="button">
-              Learn More
-            </Link>
-          ) : (
-            <Link to="/resume" className="button">
-              My Resume
-            </Link>
-          )}
+          <Link to="/about" className="button">
+            Learn More
+          </Link>
         </li>
       </ul>
     </section>
