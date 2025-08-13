@@ -39,3 +39,7 @@ My research interests include AI systems security and software engineering, etc.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;">Zhiyuan Li</span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui, Yanjun Wu<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 47th ACM SIGSOFT International Conference on Software Engineering, Ottawa, Canada</span><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🏆 <span style="color: #990000; font-weight: bold;">ACM SIGSOFT Distinguished Paper Award</span><br>
+
+# Service
+- **Program Committee/Reviewer**
+  - AAAI 2026
