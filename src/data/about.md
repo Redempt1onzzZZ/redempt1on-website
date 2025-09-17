@@ -11,6 +11,8 @@ My research interests include AI systems security and software engineering, etc.
     - Fuzzing for everything (software and hardware), Fuzzing with LLMs
 
 # News
+*Sep 16, 2025*🎉 Hass Lab won the 1st place at [HACK@CHES 2025](https://hackthesilicon.com/hackches25/).
+
 *Jun 06, 2025*🎉 Our research paper "OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models" was accepted by ICSME 2025. Congrats to Yuhao.
 
 *Jun 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing.
@@ -20,10 +22,6 @@ My research interests include AI systems security and software engineering, etc.
 *Apr 01, 2025*🏅 We (Hass Lab) won the 1st place at [HACK@DATE 2025](https://hackthesilicon.com/date25/).
 
 *Mar 18, 2025*🏅 [FUTURE](https://github.com/Redempt1onzzZZ/FUTURE) won the [ACM SIGSOFT Distinguished Paper Award](https://www.sigsoft.org/awards/distinguishedPaperAward.html) at ICSE 2025.
-
-*Nov 13, 2024*🏅 I received the National Scholarship.
-
-*Oct 31, 2024*🎉 Our research paper "The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep Learning Libraries" was accepted by ICSE 2025.
 
 # Publications
 - <span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span> <span style="font-weight: bold;">OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models</span><br> 
