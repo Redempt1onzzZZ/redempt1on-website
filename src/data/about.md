@@ -11,19 +11,19 @@ My research interests include AI systems security and software engineering, etc.
     - Fuzzing for everything (software and hardware), Fuzzing with LLMs
 
 # News
+*Nov 8, 2025*🎉 Our research paper "VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification" was accepted by AAAI 2026. Congrats to Xing.
+
 *Sep 16, 2025*🎉 Hass Lab won the 1st place at [HACK@CHES 2025](https://hackthesilicon.com/hackches25/).
 
 *Jun 06, 2025*🎉 Our research paper "OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models" was accepted by ICSME 2025. Congrats to Yuhao.
 
 *Jun 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing.
 
-*May 15, 2025*🏅 We (Hass Lab) entered Phase 2 as the top performer of Phase 1 at [HACK@DAC 2025](https://hackthesilicon.com/dac25/). (Due to issues such as US visas, we were unable to arrive on site to participate in Phase 2).
-
-*Apr 01, 2025*🏅 We (Hass Lab) won the 1st place at [HACK@DATE 2025](https://hackthesilicon.com/date25/).
-
-*Mar 18, 2025*🏅 [FUTURE](https://github.com/Redempt1onzzZZ/FUTURE) won the [ACM SIGSOFT Distinguished Paper Award](https://www.sigsoft.org/awards/distinguishedPaperAward.html) at ICSE 2025.
-
 # Publications
+- <span style="color: #1E5387; font-weight: bold;">[AAAI'26] </span> <span style="font-weight: bold;">VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification</span><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xing Cui, Jingzheng Wu, Wenxiang Ou, Tianyue Luo, <span style="font-weight: bold;">Zhiyuan Li</span>, Xiang Ling<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence, Singapore</span><br>
+
 - <span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span> <span style="font-weight: bold;">OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models</span><br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yuhao Peng, Jingzheng Wu, Xiang Ling, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Yanjun Wu<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br>
