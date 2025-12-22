@@ -37,10 +37,12 @@ My research interests include AI systems security and software engineering, etc.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence, Singapore</span><br>
 
 - <span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span> <span style="font-weight: bold;">OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models</span><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Paper]](https://www.computer.org/csdl/proceedings-article/icsme/2025/958700a260/2bgg1mfU6tO) [[Artifact]](https://github.com/Heaven2024/OptionFuzz)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yuhao Peng, Jingzheng Wu, Xiang Ling, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Yanjun Wu<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br>
 
 - <span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span> <span style="font-weight: bold;">RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation</span><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Paper]](https://ieeexplore.ieee.org/document/11186105)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xing Cui, Jingzheng Wu, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Xiang Ling<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br>
 
