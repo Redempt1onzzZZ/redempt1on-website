@@ -2,7 +2,7 @@
 
 Hi! My Chinese name is Zhiyuan Li (李志远), and my English name is Zane Lee. I am currently a PhD candidate at the University of Chinese Academy of Sciences [(UCAS)](https://english.ucas.ac.cn/) and the Institute of Software, Chinese Academy of Science [(ISCAS)](http://www.iscas.ac.cn/) under the supervision of Prof. [Jingzheng Wu](https://people.ucas.ac.cn/~jingzheng) and Associate Prof. [Xiang Ling](https://ryderling.github.io/). I obtained my Bachelor's degree from School of Artificial Intelligence at [Xidian University](https://www.xidian.edu.cn/) in 2022.
 
-My research interests include AI systems security and software engineering, etc. Besides, I am also exploring how to use insights from software to improve the robustness of hardware. My current work focuses on the security of deep learning libraries/compilers.
+My research interests include AI systems security. Besides, I am also exploring how to use insights from software to improve the robustness of hardware. My current work focuses on the security of deep learning libraries/compilers.
 
 # Research Interests
 - Security of AI Systems
@@ -17,9 +17,9 @@ My research interests include AI systems security and software engineering, etc.
 
 *Sep 16, 2025*🎉 Hass Lab won the 1st place at [HACK@CHES 2025](https://hackthesilicon.com/hackches25/).
 
-*Jun 06, 2025*🎉 Our research paper "OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models" was accepted by ICSME 2025. Congrats to Yuhao.
+<!-- *Jun 06, 2025*🎉 Our research paper "OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models" was accepted by ICSME 2025. Congrats to Yuhao.
 
-*Jun 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing.
+*Jun 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing. -->
 
 <!-- *May 15, 2025*🏅 We (Hass Lab) entered Phase 2 as the top performer of Phase 1 at [HACK@DAC 2025](https://hackthesilicon.com/dac25/). (Due to issues such as US visas, we were unable to arrive on site to participate in Phase 2).
 
@@ -27,33 +27,40 @@ My research interests include AI systems security and software engineering, etc.
 
 *Mar 18, 2025*🏅 [FUTURE](https://github.com/Redempt1onzzZZ/FUTURE) won the [ACM SIGSOFT Distinguished Paper Award](https://www.sigsoft.org/awards/distinguishedPaperAward.html) at ICSE 2025. -->
 
+# Selected Publications
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[ICSE'25] </span><span style="font-weight: bold;">The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep Learning Libraries</span> <a href="https://arxiv.org/abs/2412.01317">[Paper]</a> <a href="https://github.com/Redempt1onzzZZ/FUTURE">[Artifact]</a><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui, Yanjun Wu</span><br>
+<span style="font-size: 0.8em; color: #555;">In Proceedings of the 47th ACM SIGSOFT International Conference on Software Engineering, Ottawa, Canada</span><br>
+🏆 <span style="color: #990000; font-weight: bold;">ACM SIGSOFT Distinguished Paper Award</span><br></span>
+
+# Preprint
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[Preprint] </span><span style="font-weight: bold;">Towards Secure Agent Skills: Architecture, Threat Taxonomy, and Security Analysis</span> <a href="https://arxiv.org/abs/2604.02837">[Paper]</a><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Xing Cui, Tianyue Luo</span><br>
+<span style="font-size: 0.8em; color: #555;">arXiv preprint (cs.CR)</span><br></span>
+
 # Publications
-- <span style="color: #1E5387; font-weight: bold;">[DATE'26] </span> <span style="font-weight: bold;">Similarity-guided Block-level Mutation for RISC-V Processor Fuzzing</span><br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hao Lyu, Jingzheng Wu, Xiang Ling, Yicheng Zhong, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 29th Design, Automation and Test in Europe Conference, Verona, Italy</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[ICSE'25] </span><span style="font-weight: bold;">The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep Learning Libraries</span> <a href="https://arxiv.org/abs/2412.01317">[Paper]</a> <a href="https://github.com/Redempt1onzzZZ/FUTURE">[Artifact]</a><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui, Yanjun Wu</span><br>
+<span style="font-size: 0.8em; color: #555;">In Proceedings of the 47th ACM SIGSOFT International Conference on Software Engineering, Ottawa, Canada</span><br>
+🏆 <span style="color: #990000; font-weight: bold;">ACM SIGSOFT Distinguished Paper Award</span><br></span>
 
-- <span style="color: #1E5387; font-weight: bold;">[AAAI'26] </span> <span style="font-weight: bold;">VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification</span><br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xing Cui, Jingzheng Wu, Wenxiang Ou, Tianyue Luo, <span style="font-weight: bold;">Zhiyuan Li</span>, Xiang Ling<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence, Singapore</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[DATE'26] </span><span style="font-weight: bold;">Similarity-guided Block-level Mutation for RISC-V Processor Fuzzing</span><br>
+Hao Lyu, Jingzheng Wu, Xiang Ling, Yicheng Zhong, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo<br>
+<span style="font-size: 0.8em; color: #555;">In Proceedings of the 29th Design, Automation and Test in Europe Conference, Verona, Italy</span><br></span>
 
-- <span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span> <span style="font-weight: bold;">OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models</span><br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Paper]](https://www.computer.org/csdl/proceedings-article/icsme/2025/958700a260/2bgg1mfU6tO) [[Artifact]](https://github.com/Heaven2024/OptionFuzz)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yuhao Peng, Jingzheng Wu, Xiang Ling, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Yanjun Wu<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[AAAI'26] </span><span style="font-weight: bold;">VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification</span><br>
+Xing Cui, Jingzheng Wu, Wenxiang Ou, Tianyue Luo, <span style="font-weight: bold;">Zhiyuan Li</span>, Xiang Ling<br>
+<span style="font-size: 0.8em; color: #555;">In Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence, Singapore</span><br></span>
 
-- <span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span> <span style="font-weight: bold;">RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation</span><br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Paper]](https://ieeexplore.ieee.org/document/11186105)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xing Cui, Jingzheng Wu, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Xiang Ling<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span><span style="font-weight: bold;">OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models</span> <a href="https://www.computer.org/csdl/proceedings-article/icsme/2025/958700a260/2bgg1mfU6tO">[Paper]</a> <a href="https://github.com/Heaven2024/OptionFuzz">[Artifact]</a><br>
+Yuhao Peng, Jingzheng Wu, Xiang Ling, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Yanjun Wu<br>
+<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br></span>
 
-- <span style="color: #1E5387; font-weight: bold;">[ICSE'25] </span> <span style="font-weight: bold;">The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective</span><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;">Deep Learning Libraries</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[Paper]](https://arxiv.org/abs/2412.01317) [[Artifact]](https://github.com/Redempt1onzzZZ/FUTURE)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;">Zhiyuan Li</span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui, Yanjun Wu<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.8em; color: #555;">In Proceedings of the 47th ACM SIGSOFT International Conference on Software Engineering, Ottawa, Canada</span><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🏆 <span style="color: #990000; font-weight: bold;">ACM SIGSOFT Distinguished Paper Award</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[ICSME'25] </span><span style="font-weight: bold;">RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation</span> <a href="https://ieeexplore.ieee.org/document/11186105">[Paper]</a><br>
+Xing Cui, Jingzheng Wu, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo, Xiang Ling<br>
+<span style="font-size: 0.8em; color: #555;">In Proceedings of the 41th IEEE International Conference on Software Maintenance and Evolution, Auckland, New Zealand</span><br></span>
 
 # Service
 - **Program Committee/Reviewer**
-  - AAAI 2026
-  - TOSEM
-  - TSE
+  - **Conference:** AAAI 2026
+  - **Journal:** TOSEM, TSE

@@ -83,33 +83,91 @@
     }
   }
   
-  // Match Publications section styles with Research Interests
-  #publications {
+  // Publication list：仅圆点单独一列，其余内容同一列左对齐
+  #publications,
+  #selected-publications,
+  #conference,
+  #preprint {
     & + ul {
-      padding-left: 0; // Remove default padding to match Research Interests
+      list-style: none;
+      padding-left: 0;
       margin-left: 0;
-      list-style-position: inside; // Keep bullets consistent
-      
+
       > li {
-        padding-left: 0;
+        display: flex;
+        align-items: flex-start;
+        column-gap: 0.45em;
         margin-bottom: 1em;
-        position: static;
-        
-        &:before {
-          display: none;
+        padding-left: 0;
+        text-align: left;
+
+        &::before {
+          content: "•";
+          flex: 0 0 auto;
+          line-height: 1.75;
         }
-        
+
+        .pub-body {
+          flex: 1;
+          min-width: 0;
+          text-align: left;
+
+          /* 题目末与 [Paper] 之间留白（与源码空格叠加，避免 markdown-to-jsx 吃掉节点间空白） */
+          > a:first-of-type {
+            margin-left: 0.35em;
+          }
+
+          .pub-icon-link {
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;
+            border-bottom: 0;
+            line-height: 1;
+            color: _palette(accent);
+
+            svg {
+              height: 1.1em;
+              vertical-align: -0.125em;
+            }
+
+            &:hover {
+              color: _palette(fg-bold);
+            }
+          }
+        }
+
         // 使论文标题的粗体颜色更深
         span[style*="font-weight: bold"] {
           color: #444;
         }
-        
+
         // 为作者名称添加更深的颜色，特别是粗体部分
         span[style*="font-weight: bold"]:not([style*="color:"]) {
           color: #444;
         }
       }
     }
+  }
+
+  /* Publications 页（article#publications）：会议/预印本条间距更紧凑，不影响 About */
+  &#publications {
+    #preprint + ul > li,
+    #conference + ul > li {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  /* About：Selected Publications 与 Service 之间勿叠加大外边距 */
+  #selected-publications + ul {
+    margin-bottom: 0;
+  }
+
+  #selected-publications + ul > li:last-child {
+    margin-bottom: 0;
+  }
+
+  h1#service {
+    margin-top: 1.1em;
   }
   
   // Ensure all headings are aligned consistently

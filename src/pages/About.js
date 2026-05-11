@@ -2,7 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
+import { pubLinkMarkdownOptions } from '../components/Markdown/pubLinkOverrides';
 import Main from '../layouts/Main';
+
+/** Omit # Preprint and # Publications on About; Selected Publications is kept. */
+function stripFullPublicationsSection(text) {
+  return text
+    .replace(/\n# Preprint\n[\s\S]*?(?=\n# [^#]|$)/, '')
+    .replace(/\n# Publications\n[\s\S]*?(?=\n# [^#]|$)/, '');
+}
 
 const About = () => {
   const [markdown, setMarkdown] = useState('');
@@ -13,9 +21,11 @@ const About = () => {
         .then((r) => r.text())
         .then(setMarkdown);
     });
-  });
+  }, []);
 
-  const count = markdown
+  const displayMarkdown = stripFullPublicationsSection(markdown);
+
+  const count = displayMarkdown
     .split(/\s+/)
     .map((s) => s.replace(/\W/g, ''))
     .filter((s) => s.length).length;
@@ -31,7 +41,7 @@ const About = () => {
             <p>(in about {count} words)</p>
           </div>
         </header>
-        <Markdown>{markdown}</Markdown>
+        <Markdown options={pubLinkMarkdownOptions}>{displayMarkdown}</Markdown>
       </article>
     </Main>
   );

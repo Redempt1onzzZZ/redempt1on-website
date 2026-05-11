@@ -1,26 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
+import { pubLinkMarkdownOptions } from '../components/Markdown/pubLinkOverrides';
 import Main from '../layouts/Main';
 
 const Publications = () => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    // 从 about.md 文件中提取 Publications 部分
     import('../data/about.md').then((res) => {
       fetch(res.default)
         .then((r) => r.text())
         .then((text) => {
-          // 找到 Publications 部分并设置
-          const publicationsSection = text.split('# Publications')[1];
-          if (publicationsSection) {
-            setMarkdown(`# Publications\n\n${publicationsSection}`);
+          const pre = text.match(/# Preprint\s*\n([\s\S]*?)(?=\n# [^#]|$)/);
+          const pub = text.match(/# Publications\s*\n([\s\S]*?)(?=\n# [^#]|$)/);
+          const parts = [];
+          if (pre) parts.push(`# Preprint\n\n${pre[1].trim()}`);
+          if (pub) parts.push(`# Conference\n\n${pub[1].trim()}`);
+          if (parts.length) {
+            setMarkdown(parts.join('\n\n'));
           }
         });
     });
   }, []);
+
+  const markdownOptions = useMemo(() => pubLinkMarkdownOptions, []);
 
   return (
     <Main
@@ -33,11 +38,11 @@ const Publications = () => {
             <h2>
               <Link to="/publications">Publications</Link>
             </h2>
-            <p>My academic and research publications</p>
+            <p>Preprints and peer-reviewed papers</p>
           </div>
         </header>
         {markdown ? (
-          <Markdown>{markdown}</Markdown>
+          <Markdown options={markdownOptions}>{markdown}</Markdown>
         ) : (
           <p>Loading publications...</p>
         )}
