@@ -44,11 +44,11 @@ My research interests include AI systems security. Besides, I am also exploring 
 <span style="font-size: 0.8em; color: #555;">In Proceedings of the 47th ACM SIGSOFT International Conference on Software Engineering, Ottawa, Canada</span><br>
 🏆 <span style="color: #990000; font-weight: bold;">ACM SIGSOFT Distinguished Paper Award</span><br></span>
 
-- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[DATE'26] </span><span style="font-weight: bold;">Similarity-guided Block-level Mutation for RISC-V Processor Fuzzing</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[DATE'26] </span><span style="font-weight: bold;">Similarity-guided Block-level Mutation for RISC-V Processor Fuzzing</span> <a href="https://arxiv.org/abs/2601.11838">[Paper]</a><br>
 Hao Lyu, Jingzheng Wu, Xiang Ling, Yicheng Zhong, <span style="font-weight: bold;">Zhiyuan Li</span>, Tianyue Luo<br>
 <span style="font-size: 0.8em; color: #555;">In Proceedings of the 29th Design, Automation and Test in Europe Conference, Verona, Italy</span><br></span>
 
-- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[AAAI'26] </span><span style="font-weight: bold;">VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[AAAI'26] </span><span style="font-weight: bold;">VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification</span> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/36976">[Paper]</a><br>
 Xing Cui, Jingzheng Wu, Wenxiang Ou, Tianyue Luo, <span style="font-weight: bold;">Zhiyuan Li</span>, Xiang Ling<br>
 <span style="font-size: 0.8em; color: #555;">In Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence, Singapore</span><br></span>
 
