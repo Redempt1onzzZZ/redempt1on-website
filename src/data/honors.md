@@ -15,7 +15,7 @@ participate in Phase 2 due to US visas and safety issues).
 - <span style="color: #1E5387; font-weight: bold;">[Nov 2024] </span> <span style="font-weight: bold;">🏅1st Prize at DataCon 2024</span><br>
   As a member of newbie_hunting team, won the third place at AI security track of [DataCon Big Data Security Analysis Competition 2024](https://www.datacon.org.cn/datacon2024-en).
 
-- <span style="color: #1E5387; font-weight: bold;">[2022-2025] </span> <span style="font-weight: bold;">🏆3 x Merit Student Awards</span><br>
+- <span style="color: #1E5387; font-weight: bold;">[2022-2026] </span> <span style="font-weight: bold;">🏆4 x Merit Student Awards</span><br>
   I got three times of Merit Student Awards from the Chinese Academy of Sciences.
 
 - <span style="color: #1E5387; font-weight: bold;">[2022-2025] </span> <span style="font-weight: bold;">🏆3 x Outstanding Student Cadres Awards</span><br>
