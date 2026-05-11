@@ -20,7 +20,7 @@ function joinClass(...parts) {
   return s || undefined;
 }
 
-/** markdown-to-jsx：论文 [Paper] / [Artifact] 链接改为图标 */
+/** markdown-to-jsx: render [Paper] / [Artifact] links as icons */
 export const MarkdownPubAnchor = ({
   href,
   children,

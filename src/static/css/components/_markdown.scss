@@ -83,7 +83,7 @@
     }
   }
   
-  // Publication list：仅圆点单独一列，其余内容同一列左对齐
+  // Publication list: bullet in its own column; body text left-aligned in one column
   #publications,
   #selected-publications,
   #conference,
@@ -112,7 +112,7 @@
           min-width: 0;
           text-align: left;
 
-          /* 题目末与 [Paper] 之间留白（与源码空格叠加，避免 markdown-to-jsx 吃掉节点间空白） */
+          /* Space before first [Paper] link (works with source spaces; avoids markdown-to-jsx collapsing) */
           > a:first-of-type {
             margin-left: 0.35em;
           }
@@ -136,12 +136,12 @@
           }
         }
 
-        // 使论文标题的粗体颜色更深
+        // Darker bold for paper titles
         span[style*="font-weight: bold"] {
           color: #444;
         }
 
-        // 为作者名称添加更深的颜色，特别是粗体部分
+        // Darker bold for author names (when no inline color)
         span[style*="font-weight: bold"]:not([style*="color:"]) {
           color: #444;
         }
@@ -149,7 +149,7 @@
     }
   }
 
-  /* Publications 页（article#publications）：会议/预印本条间距更紧凑，不影响 About */
+  /* Publications page (.markdown#publications): tighter list spacing; About unchanged */
   &#publications {
     #preprint + ul > li,
     #conference + ul > li {
@@ -157,7 +157,7 @@
     }
   }
 
-  /* About：Selected Publications 与 Service 之间勿叠加大外边距 */
+  /* About: avoid extra vertical gap between Selected Publications and Service */
   #selected-publications + ul {
     margin-bottom: 0;
   }

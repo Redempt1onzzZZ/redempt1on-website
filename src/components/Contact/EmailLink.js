@@ -9,7 +9,7 @@ const validateText = (text) => {
   return re.test(text) || text.length === 0;
 };
 
-// 完整的邮箱信息，包括前缀和后缀
+// Full email: local part + domain
 const emailAddresses = [
   { prefix: 'lizhiyuan2021', domain: 'iscas.ac.cn' },
   { prefix: 'lizhiyuan221', domain: 'gmails.com' },
