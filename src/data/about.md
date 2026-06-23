@@ -62,5 +62,5 @@ Xing Cui, Jingzheng Wu, <span style="font-weight: bold;">Zhiyuan Li</span>, Tian
 
 # Service
 - **Program Committee/Reviewer**
-  - **Conference:** AAAI 2026
+  - **Conference:** AAAI 2026, AAAI 2027
   - **Journal:** TOSEM, TSE
