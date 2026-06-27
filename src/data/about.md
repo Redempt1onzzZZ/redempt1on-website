@@ -11,6 +11,8 @@ My research interests include AI systems security. Besides, I am also exploring 
     - Fuzzing for everything (software and hardware), Fuzzing with LLMs
 
 # News
+*Jun 27, 2026*🎉 Our research paper "Confused Deputy Attack Against Model Context Protocol" was accepted by TOSEM.
+
 *Nov 8, 2025*🎉 Our research paper "Similarity-guided Block-level Mutation for RISC-V Processor Fuzzing" was accepted by DATE 2026. Congrats to Hao.
 
 *Nov 8, 2025*🎉 Our research paper "VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification" was accepted by AAAI 2026. Congrats to Xing.
