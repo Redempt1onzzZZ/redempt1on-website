@@ -28,6 +28,10 @@ My research interests include AI systems security. Besides, I am also exploring 
 *Mar 18, 2025*🏅 [FUTURE](https://github.com/Redempt1onzzZZ/FUTURE) won the [ACM SIGSOFT Distinguished Paper Award](https://www.sigsoft.org/awards/distinguishedPaperAward.html) at ICSE 2025. -->
 
 # Selected Publications
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Yuhao Peng, Tianyue Luo, Xing Cui, Xiang Ling</span><br>
+<span style="font-size: 0.8em; color: #555;">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><br></span>
+
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[ICSE'25] </span><span style="font-weight: bold;">The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep Learning Libraries</span> <a href="https://arxiv.org/abs/2412.01317">[Paper]</a> <a href="https://github.com/Redempt1onzzZZ/FUTURE">[Artifact]</a><br>
 <span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui, Yanjun Wu</span><br>
 <span style="font-size: 0.8em; color: #555;">In Proceedings of the 47th ACM SIGSOFT International Conference on Software Engineering, Ottawa, Canada</span><br>
@@ -37,6 +41,11 @@ My research interests include AI systems security. Besides, I am also exploring 
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[Preprint] </span><span style="font-weight: bold;">Towards Secure Agent Skills: Architecture, Threat Taxonomy, and Security Analysis</span> <a href="https://arxiv.org/abs/2604.02837">[Paper]</a><br>
 <span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Xing Cui, Tianyue Luo</span><br>
 <span style="font-size: 0.8em; color: #555;">arXiv preprint (cs.CR)</span><br></span>
+
+# Journal
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Yuhao Peng, Tianyue Luo, Xing Cui, Xiang Ling</span><br>
+<span style="font-size: 0.8em; color: #555;">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><br></span>
 
 # Publications
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[ICSE'25] </span><span style="font-weight: bold;">The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep Learning Libraries</span> <a href="https://arxiv.org/abs/2412.01317">[Paper]</a> <a href="https://github.com/Redempt1onzzZZ/FUTURE">[Artifact]</a><br>

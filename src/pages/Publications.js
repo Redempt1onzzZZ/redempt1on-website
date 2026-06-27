@@ -14,9 +14,11 @@ const Publications = () => {
         .then((r) => r.text())
         .then((text) => {
           const pre = text.match(/# Preprint\s*\n([\s\S]*?)(?=\n# [^#]|$)/);
+          const journal = text.match(/# Journal\s*\n([\s\S]*?)(?=\n# [^#]|$)/);
           const pub = text.match(/# Publications\s*\n([\s\S]*?)(?=\n# [^#]|$)/);
           const parts = [];
           if (pre) parts.push(`# Preprint\n\n${pre[1].trim()}`);
+          if (journal) parts.push(`# Journal\n\n${journal[1].trim()}`);
           if (pub) parts.push(`# Conference\n\n${pub[1].trim()}`);
           if (parts.length) {
             setMarkdown(parts.join('\n\n'));

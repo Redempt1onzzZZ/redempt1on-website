@@ -87,6 +87,7 @@
   #publications,
   #selected-publications,
   #conference,
+  #journal,
   #preprint {
     & + ul {
       list-style: none;
@@ -152,6 +153,7 @@
   /* Publications page (.markdown#publications): tighter list spacing; About unchanged */
   &#publications {
     #preprint + ul > li,
+    #journal + ul > li,
     #conference + ul > li {
       margin-bottom: 0.5em;
     }

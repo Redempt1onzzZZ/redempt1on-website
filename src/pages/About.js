@@ -5,10 +5,11 @@ import Markdown from 'markdown-to-jsx';
 import { pubLinkMarkdownOptions } from '../components/Markdown/pubLinkOverrides';
 import Main from '../layouts/Main';
 
-/** Omit # Preprint and # Publications on About; Selected Publications is kept. */
+/** Omit # Preprint, # Journal, and # Publications on About; Selected Publications is kept. */
 function stripFullPublicationsSection(text) {
   return text
     .replace(/\n# Preprint\n[\s\S]*?(?=\n# [^#]|$)/, '')
+    .replace(/\n# Journal\n[\s\S]*?(?=\n# [^#]|$)/, '')
     .replace(/\n# Publications\n[\s\S]*?(?=\n# [^#]|$)/, '');
 }
 
