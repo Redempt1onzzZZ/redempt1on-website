@@ -30,7 +30,7 @@ My research interests include AI systems security. Besides, I am also exploring 
 *Mar 18, 2025*🏅 [FUTURE](https://github.com/Redempt1onzzZZ/FUTURE) won the [ACM SIGSOFT Distinguished Paper Award](https://www.sigsoft.org/awards/distinguishedPaperAward.html) at ICSE 2025. -->
 
 # Selected Publications
-- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span> <a href="/papers/puppet.pdf">[Paper]</a><br>
 <span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Yuhao Peng, Tianyue Luo, Xing Cui, Xiang Ling</span><br>
 <span style="font-size: 0.8em; color: #555;">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><br></span>
 
@@ -45,7 +45,7 @@ My research interests include AI systems security. Besides, I am also exploring 
 <span style="font-size: 0.8em; color: #555;">arXiv preprint (cs.CR)</span><br></span>
 
 # Journal
-- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span><br>
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span> <a href="/papers/puppet.pdf">[Paper]</a><br>
 <span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Yuhao Peng, Tianyue Luo, Xing Cui, Xiang Ling</span><br>
 <span style="font-size: 0.8em; color: #555;">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><br></span>
 
