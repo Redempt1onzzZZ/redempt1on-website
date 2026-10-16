@@ -11,6 +11,8 @@ My research interests include AI systems security. Besides, I am also exploring 
     - Fuzzing for everything (software and hardware), Fuzzing with LLMs
 
 # News
+*Oct 16, 2026*🎉 Our research paper "From History to FUTURE and Back Again: Bidirectional Fuzzing for Deep Learning Libraries" was accepted by EMSE.
+
 *Jun 27, 2026*🎉 Our research paper "Confused Deputy Attack Against Model Context Protocol" was accepted by TOSEM.
 
 *Nov 8, 2025*🎉 Our research paper "Similarity-guided Block-level Mutation for RISC-V Processor Fuzzing" was accepted by DATE 2026. Congrats to Hao.
@@ -30,6 +32,10 @@ My research interests include AI systems security. Besides, I am also exploring 
 *Mar 18, 2025*🏅 [FUTURE](https://github.com/Redempt1onzzZZ/FUTURE) won the [ACM SIGSOFT Distinguished Paper Award](https://www.sigsoft.org/awards/distinguishedPaperAward.html) at ICSE 2025. -->
 
 # Selected Publications
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[EMSE'26] </span><span style="font-weight: bold;">From History to FUTURE and Back Again: Bidirectional Fuzzing for Deep Learning Libraries</span><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui</span><br>
+<span style="font-size: 0.8em; color: #555;">Empirical Software Engineering (EMSE)</span><br></span>
+
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span> <a href="/papers/puppet.pdf">[Paper]</a><br>
 <span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Yuhao Peng, Tianyue Luo, Xing Cui, Xiang Ling</span><br>
 <span style="font-size: 0.8em; color: #555;">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><br></span>
@@ -45,6 +51,10 @@ My research interests include AI systems security. Besides, I am also exploring 
 <span style="font-size: 0.8em; color: #555;">arXiv preprint (cs.CR)</span><br></span>
 
 # Journal
+- <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[EMSE'26] </span><span style="font-weight: bold;">From History to FUTURE and Back Again: Bidirectional Fuzzing for Deep Learning Libraries</span><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui</span><br>
+<span style="font-size: 0.8em; color: #555;">Empirical Software Engineering (EMSE)</span><br></span>
+
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span> <a href="/papers/puppet.pdf">[Paper]</a><br>
 <span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Yuhao Peng, Tianyue Luo, Xing Cui, Xiang Ling</span><br>
 <span style="font-size: 0.8em; color: #555;">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><br></span>
