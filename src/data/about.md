@@ -19,8 +19,6 @@ My research interests include AI systems security. Besides, I am also exploring 
 
 *Nov 8, 2025*🎉 Our research paper "VFCionX: Bridging Large and Small Models for Robust Vulnerability-Fixing Commit Identification" was accepted by AAAI 2026. Congrats to Xing.
 
-*Sep 16, 2025*🎉 Hass Lab won the 1st place at [HACK@CHES 2025](https://hackthesilicon.com/hackches25/).
-
 <!-- *Jun 06, 2025*🎉 Our research paper "OptionFuzz: Fuzzing SMT Solvers with Optimized Option Exploration via Large Language Models" was accepted by ICSME 2025. Congrats to Yuhao.
 
 *Jun 06, 2025*🎉 Our research paper "RMGenie: An LLM-Based Agent Framework for Open Source Software README Generation" was accepted by ICSME 2025. Congrats to Xing. -->
