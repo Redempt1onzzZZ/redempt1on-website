@@ -23,7 +23,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Zhiyuan Li. I am currently a PhD candidate at Institute of Software,
-        Chinese Academy of Science{' '}
+        Chinese Academy of Sciences{' '}
         <a href="http://www.iscas.ac.cn/">(ISCAS)</a>, working with Prof.{' '}
         <a href="https://people.ucas.ac.cn/~jingzheng">Jingzheng Wu</a> and Associate Prof.{' '}
         <a href="https://ryderling.github.io/">Xiang Ling</a>.
