@@ -31,7 +31,7 @@ My research interests include AI systems security. Besides, I am also exploring 
 
 # Selected Publications
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[EMSE'26] </span><span style="font-weight: bold;">From History to FUTURE and Back Again: Bidirectional Fuzzing for Deep Learning Libraries</span> <a href="https://link.springer.com/article/10.1007/s10664-026-10996-z">[Paper]</a> <a href="https://github.com/Redempt1onzzZZ/FUTURE_v2">[Artifact]</a><br>
-<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui</span><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Xing Cui, Zhiqing Rui</span><br>
 <span style="font-size: 0.8em; color: #555;">Empirical Software Engineering (EMSE)</span><br></span>
 
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span> <a href="/papers/puppet.pdf">[Paper]</a> <a href="https://github.com/Redempt1onzzZZ/Puppet">[Artifact]</a><br>
@@ -50,7 +50,7 @@ My research interests include AI systems security. Besides, I am also exploring 
 
 # Journal
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[EMSE'26] </span><span style="font-weight: bold;">From History to FUTURE and Back Again: Bidirectional Fuzzing for Deep Learning Libraries</span> <a href="https://link.springer.com/article/10.1007/s10664-026-10996-z">[Paper]</a> <a href="https://github.com/Redempt1onzzZZ/FUTURE_v2">[Artifact]</a><br>
-<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Zhiqing Rui</span><br>
+<span style="font-weight: bold;">Zhiyuan Li</span><span>, Jingzheng Wu, Xiang Ling, Tianyue Luo, Xing Cui, Zhiqing Rui</span><br>
 <span style="font-size: 0.8em; color: #555;">Empirical Software Engineering (EMSE)</span><br></span>
 
 - <span class="pub-body"><span style="color: #1E5387; font-weight: bold;">[TOSEM'26] </span><span style="font-weight: bold;">Confused Deputy Attack Against Model Context Protocol</span> <a href="/papers/puppet.pdf">[Paper]</a> <a href="https://github.com/Redempt1onzzZZ/Puppet">[Artifact]</a><br>
